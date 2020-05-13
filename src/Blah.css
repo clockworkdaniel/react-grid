@@ -1,0 +1,11 @@
+.grid {
+    width: 500px;
+    height: 400px;
+    display: grid;
+    grid-template-areas: "header header picture"
+                         "copy copy picture"
+                         "copy  copy nope";
+    grid-template-rows:  repeat(3 1fr);
+    grid-template-columns: repeat(3 1fr);
+    grid-gap: 1em;
+  }
